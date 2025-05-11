@@ -1,9 +1,9 @@
 # Verbs - Informations Application
 
-**Version :** 1.0 *(Tu peux la mettre à jour manuellement ici)*
+**Version :** 1.0 
 
 ## Objectif de l'Application
-Verbs a été conçue pour aider les élèves de collège à apprendre et réviser les verbes irréguliers en anglais de manière simple et interactive.
+Verbs a été conçue pour aider les élèves de collège à apprendre, réviser et prononcer les verbes irréguliers en anglais de manière simple et interactive.
 
 ## Fonctionnalités Principales
 * Consulter une liste complète de verbes irréguliers.
@@ -11,6 +11,7 @@ Verbs a été conçue pour aider les élèves de collège à apprendre et révis
 * Choisir son niveau de difficulté (Débutant, Confirmé, Expert).
 * Personnaliser la liste des verbes à réviser.
 * Suivre son meilleur score.
+* Écouter la prononciation des verbes corrigés grâce à la synthèse vocale.
 
 ## Collecte et Utilisation des Données
 L'application Verbs respecte votre vie privée.
@@ -23,5 +24,9 @@ Aucune autre donnée personnelle n'est collectée, utilisée ou partagée par l'
 
 ## Développeur
 Application développée par Art@Factory.
+## Contact
+
+Pour toute question, suggestion ou si vous rencontrez un problème, n'hésitez pas à nous contacter à l'adresse suivante :
+[app.artfactory13@gmail.com](mailto:app.artfactory13@gmail.com)
 
 *Dernière mise à jour : 08 Mai 2025*
