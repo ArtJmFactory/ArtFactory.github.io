@@ -1,0 +1,1402 @@
+[
+  {
+    "french": "Acheter",
+    "base": "buy",
+    "past": "bought",
+    "participle": "bought",
+    "category": "D"
+  },
+  {
+    "french": "Aller",
+    "base": "go",
+    "past": "went",
+    "participle": "gone",
+    "category": "D"
+  },
+  {
+    "french": "Apporter",
+    "base": "bring",
+    "past": "brought",
+    "participle": "brought",
+    "category": "D"
+  },
+  {
+    "french": "Avoir",
+    "base": "have",
+    "past": "had",
+    "participle": "had",
+    "category": "D"
+  },
+  {
+    "french": "Boire",
+    "base": "drink",
+    "past": "drank",
+    "participle": "drunk",
+    "category": "D"
+  },
+  {
+    "french": "Casser",
+    "base": "break",
+    "past": "broke",
+    "participle": "broken",
+    "category": "D"
+  },
+  {
+    "french": "Choisir",
+    "base": "choose",
+    "past": "chose",
+    "participle": "chosen",
+    "category": "D"
+  },
+  {
+    "french": "Commencer",
+    "base": "begin",
+    "past": "began",
+    "participle": "begun",
+    "category": "D"
+  },
+  {
+    "french": "Construire",
+    "base": "build",
+    "past": "built",
+    "participle": "built",
+    "category": "D"
+  },
+  {
+    "french": "Conduire",
+    "base": "drive",
+    "past": "drove",
+    "participle": "driven",
+    "category": "D"
+  },
+  {
+    "french": "Courir",
+    "base": "run",
+    "past": "ran",
+    "participle": "run",
+    "category": "D"
+  },
+  {
+    "french": "Devenir",
+    "base": "become",
+    "past": "became",
+    "participle": "become",
+    "category": "D"
+  },
+  {
+    "french": "Dire",
+    "base": "say",
+    "past": "said",
+    "participle": "said",
+    "category": "D"
+  },
+  {
+    "french": "Donner",
+    "base": "give",
+    "past": "gave",
+    "participle": "given",
+    "category": "D"
+  },
+  {
+    "french": "Dormir",
+    "base": "sleep",
+    "past": "slept",
+    "participle": "slept",
+    "category": "D"
+  },
+  {
+    "french": "Écrire",
+    "base": "write",
+    "past": "wrote",
+    "participle": "written",
+    "category": "D"
+  },
+  {
+    "french": "Enseigner",
+    "base": "teach",
+    "past": "taught",
+    "participle": "taught",
+    "category": "D"
+  },
+  {
+    "french": "Entendre",
+    "base": "hear",
+    "past": "heard",
+    "participle": "heard",
+    "category": "D"
+  },
+  {
+    "french": "Être",
+    "base": "be",
+    "past": "was/were",
+    "participle": "been",
+    "category": "D"
+  },
+  {
+    "french": "Faire",
+    "base": "do",
+    "past": "did",
+    "participle": "done",
+    "category": "D"
+  },
+  {
+    "french": "fabriquer",
+    "base": "make",
+    "past": "made",
+    "participle": "made",
+    "category": "D"
+  },
+  {
+    "french": "Garder",
+    "base": "keep",
+    "past": "kept",
+    "participle": "kept",
+    "category": "D"
+  },
+  {
+    "french": "laisser",
+    "base": "let",
+    "past": "let",
+    "participle": "let",
+    "category": "E"
+  },
+  {
+    "french": "Lire",
+    "base": "read",
+    "past": "read",
+    "participle": "read",
+    "category": "D"
+  },
+  {
+    "french": "Manger",
+    "base": "eat",
+    "past": "ate",
+    "participle": "eaten",
+    "category": "D"
+  },
+  {
+    "french": "Mettre",
+    "base": "put",
+    "past": "put",
+    "participle": "put",
+    "category": "D"
+  },
+  {
+    "french": "Obtenir",
+    "base": "get",
+    "past": "got",
+    "participle": "got",
+    "category": "D"
+  },
+  {
+    "french": "Parler",
+    "base": "speak",
+    "past": "spoke",
+    "participle": "spoken",
+    "category": "D"
+  },
+  {
+    "french": "Penser",
+    "base": "think",
+    "past": "thought",
+    "participle": "thought",
+    "category": "D"
+  },
+  {
+    "french": "Prendre",
+    "base": "take",
+    "past": "took",
+    "participle": "taken",
+    "category": "D"
+  },
+  {
+    "french": "Quitter",
+    "base": "leave",
+    "past": "left",
+    "participle": "left",
+    "category": "D"
+  },
+  {
+    "french": "raconter",
+    "base": "tell",
+    "past": "told",
+    "participle": "told",
+    "category": "D"
+  },
+  {
+    "french": "Rencontrer",
+    "base": "meet",
+    "past": "met",
+    "participle": "met",
+    "category": "D"
+  },
+  {
+    "french": "S’asseoir",
+    "base": "sit",
+    "past": "sat",
+    "participle": "sat",
+    "category": "E"
+  },
+  {
+    "french": "Savoir",
+    "base": "know",
+    "past": "knew",
+    "participle": "known",
+    "category": "D"
+  },
+  {
+    "french": "Sentir",
+    "base": "feel",
+    "past": "felt",
+    "participle": "felt",
+    "category": "D"
+  },
+  {
+    "french": "Tomber",
+    "base": "fall",
+    "past": "fell",
+    "participle": "fallen",
+    "category": "D"
+  },
+  {
+    "french": "Trouver",
+    "base": "find",
+    "past": "found",
+    "participle": "found",
+    "category": "D"
+  },
+  {
+    "french": "Venir",
+    "base": "come",
+    "past": "came",
+    "participle": "come",
+    "category": "D"
+  },
+  {
+    "french": "Voir",
+    "base": "see",
+    "past": "saw",
+    "participle": "seen",
+    "category": "D"
+  },
+  {
+    "french": "abandonner",
+    "base": "forsake",
+    "past": "forsook",
+    "participle": "forsaken",
+    "category": "E"
+  },
+  {
+    "french": "accélérer",
+    "base": "speed",
+    "past": "sped",
+    "participle": "sped",
+    "category": "E"
+  },
+  {
+    "french": "apprendre",
+    "base": "learn",
+    "past": "learnt",
+    "participle": "learnt",
+    "category": "C"
+  },
+  {
+    "french": "arrêter, cesser (de)",
+    "base": "quit",
+    "past": "quit",
+    "participle": "quit",
+    "category": "C"
+  },
+  {
+    "french": "attraper",
+    "base": "catch",
+    "past": "caught",
+    "participle": "caught",
+    "category": "C"
+  },
+  {
+    "french": "avoir des engelures",
+    "base": "frostbite",
+    "past": "frostbit",
+    "participle": "frostbitten",
+    "category": "C"
+  },
+  {
+    "french": "balayer",
+    "base": "sweep",
+    "past": "swept",
+    "participle": "swept",
+    "category": "C"
+  },
+  {
+    "french": "battre",
+    "base": "beat",
+    "past": "beat",
+    "participle": "beaten",
+    "category": "C"
+  },
+  {
+    "french": "blesser",
+    "base": "hurt",
+    "past": "hurt",
+    "participle": "hurt",
+    "category": "D"
+  },
+  {
+    "french": "bondir",
+    "base": "leap",
+    "past": "leapt",
+    "participle": "leapt",
+    "category": "C"
+  },
+  {
+    "french": "bouleverser",
+    "base": "upset",
+    "past": "upset",
+    "participle": "upset",
+    "category": "C"
+  },
+  {
+    "french": "bousiller",
+    "base": "bust",
+    "past": "bust",
+    "participle": "bust",
+    "category": "C"
+  },
+  {
+    "french": "briller",
+    "base": "shine",
+    "past": "shone",
+    "participle": "shone",
+    "category": "C"
+  },
+  {
+    "french": "broyer",
+    "base": "grind",
+    "past": "ground",
+    "participle": "ground",
+    "category": "C"
+  },
+  {
+    "french": "brûler",
+    "base": "burn",
+    "past": "burnt",
+    "participle": "burnt",
+    "category": "D"
+  },
+  {
+    "french": "cacher",
+    "base": "hide",
+    "past": "hid",
+    "participle": "hidden",
+    "category": "D"
+  },
+  {
+    "french": "chanter",
+    "base": "sing",
+    "past": "sang",
+    "participle": "sung",
+    "category": "D"
+  },
+  {
+    "french": "chausser",
+    "base": "shoe",
+    "past": "shod",
+    "participle": "shod",
+    "category": "C"
+  },
+  {
+    "french": "chevaucher",
+    "base": "ride",
+    "past": "rode",
+    "participle": "ridden",
+    "category": "C"
+  },
+  {
+    "french": "coller",
+    "base": "stick",
+    "past": "stuck",
+    "participle": "stuck",
+    "category": "C"
+  },
+  {
+    "french": "combattre",
+    "base": "fight",
+    "past": "fought",
+    "participle": "fought",
+    "category": "D"
+  },
+  {
+    "french": "comprendre",
+    "base": "understand",
+    "past": "understood",
+    "participle": "understood",
+    "category": "C"
+  },
+  {
+    "french": "contempler",
+    "base": "behold",
+    "past": "beheld",
+    "participle": "beheld",
+    "category": "C"
+  },
+  {
+    "french": "contrarier",
+    "base": "vex",
+    "past": "vexed",
+    "participle": "vexed",
+    "category": "C"
+  },
+  {
+    "french": "coudre",
+    "base": "sew",
+    "past": "sewed",
+    "participle": "sewn",
+    "category": "C"
+  },
+  {
+    "french": "couler",
+    "base": "sink",
+    "past": "sank",
+    "participle": "sunk",
+    "category": "C"
+  },
+  {
+    "french": "couper",
+    "base": "cut",
+    "past": "cut",
+    "participle": "cut",
+    "category": "D"
+  },
+  {
+    "french": "coûter",
+    "base": "cost",
+    "past": "cost",
+    "participle": "cost",
+    "category": "D"
+  },
+  {
+    "french": "cracher",
+    "base": "spit",
+    "past": "spat",
+    "participle": "spat",
+    "category": "C"
+  },
+  {
+    "french": "creuser",
+    "base": "dig",
+    "past": "dug",
+    "participle": "dug",
+    "category": "D"
+  },
+  {
+    "french": "débarrasser",
+    "base": "rid",
+    "past": "rid",
+    "participle": "rid",
+    "category": "C"
+  },
+  {
+    "french": "déchirer",
+    "base": "tear",
+    "past": "tore",
+    "participle": "torn",
+    "category": "C"
+  },
+  {
+    "french": "demeurer",
+    "base": "abide",
+    "past": "abode",
+    "participle": "abided",
+    "category": "C"
+  },
+  {
+    "french": "dépasser",
+    "base": "overtake",
+    "past": "overtook",
+    "participle": "overtaken",
+    "category": "C"
+  },
+  {
+    "french": "dépenser",
+    "base": "spend",
+    "past": "spent",
+    "participle": "spent",
+    "category": "C"
+  },
+  {
+    "french": "dérober",
+    "base": "steal",
+    "past": "stole",
+    "participle": "stolen",
+    "category": "C"
+  },
+  {
+    "french": "descendre",
+    "base": "alight",
+    "past": "alit",
+    "participle": "alit",
+    "category": "C"
+  },
+  {
+    "french": "déshabiller",
+    "base": "strip",
+    "past": "stripped",
+    "participle": "stripped",
+    "category": "C"
+  },
+  {
+    "french": "dessiner",
+    "base": "draw",
+    "past": "drew",
+    "participle": "drawn",
+    "category": "D"
+  },
+  {
+    "french": "éclairer",
+    "base": "light",
+    "past": "lit",
+    "participle": "lit",
+    "category": "C"
+  },
+  {
+    "french": "éclater",
+    "base": "burst",
+    "past": "burst",
+    "participle": "burst",
+    "category": "C"
+  },
+  {
+    "french": "écrire à la main",
+    "base": "handwrite",
+    "past": "handwrote",
+    "participle": "handwritten",
+    "category": "C"
+  },
+  {
+    "french": "enrouler",
+    "base": "wind",
+    "past": "wound",
+    "participle": "wound",
+    "category": "C"
+  },
+  {
+    "french": "enseigner",
+    "base": "teach",
+    "past": "taught",
+    "participle": "taught",
+    "category": "D"
+  },
+  {
+    "french": "entreprendre",
+    "base": "undertake",
+    "past": "undertook",
+    "participle": "undertaken",
+    "category": "C"
+  },
+  {
+    "french": "envoyer",
+    "base": "send",
+    "past": "sent",
+    "participle": "sent",
+    "category": "C"
+  },
+  {
+    "french": "épeler",
+    "base": "spell",
+    "past": "spelt",
+    "participle": "spelt",
+    "category": "D"
+  },
+  {
+    "french": "faire une offre",
+    "base": "bid",
+    "past": "bade",
+    "participle": "bidden",
+    "category": "C"
+  },
+  {
+    "french": "fendre",
+    "base": "slit",
+    "past": "slit",
+    "participle": "slit",
+    "category": "C"
+  },
+  {
+    "french": "fermer / éteindre",
+    "base": "shut",
+    "past": "shut",
+    "participle": "shut",
+    "category": "C"
+  },
+  {
+    "french": "fixer",
+    "base": "set",
+    "past": "set",
+    "participle": "set",
+    "category": "C"
+  },
+  {
+    "french": "fondre",
+    "base": "melt",
+    "past": "melted",
+    "participle": "molten",
+    "category": "C"
+  },
+  {
+    "french": "frapper, atteindre ",
+    "base": "hit",
+    "past": "hit",
+    "participle": "hit",
+    "category": "D"
+  },
+  {
+    "french": "frapper",
+    "base": "strike",
+    "past": "struck",
+    "participle": "struck",
+    "category": "C"
+  },
+  {
+    "french": "fuir",
+    "base": "flee",
+    "past": "fled",
+    "participle": "fled",
+    "category": "C"
+  },
+  {
+    "french": "gâcher",
+    "base": "spoil",
+    "past": "spoilt",
+    "participle": "spoilt",
+    "category": "C"
+  },
+  {
+    "french": "gagner",
+    "base": "win",
+    "past": "won",
+    "participle": "won",
+    "category": "D"
+  },
+  {
+    "french": "geler",
+    "base": "freeze",
+    "past": "froze",
+    "participle": "frozen",
+    "category": "C"
+  },
+  {
+    "french": "glisser",
+    "base": "slide",
+    "past": "slid",
+    "participle": "slid",
+    "category": "C"
+  },
+  {
+    "french": "gonfler",
+    "base": "swell",
+    "past": "swelled",
+    "participle": "swollen",
+    "category": "C"
+  },
+  {
+    "french": "grandir",
+    "base": "grow",
+    "past": "grew",
+    "participle": "grown",
+    "category": "C"
+  },
+  {
+    "french": "habiller, vêtir",
+    "base": "clothe",
+    "past": "clothed",
+    "participle": "clothed",
+    "category": "C"
+  },
+  {
+    "french": "habiter",
+    "base": "dwell",
+    "past": "dwelt",
+    "participle": "dwelt",
+    "category": "C"
+  },
+  {
+    "french": "incruster",
+    "base": "inlay",
+    "past": "inlaid",
+    "participle": "inlaid",
+    "category": "E"
+  },
+  {
+    "french": "induire en erreur",
+    "base": "mislead",
+    "past": "misled",
+    "participle": "misled",
+    "category": "C"
+  },
+  {
+    "french": "interdire",
+    "base": "forbid",
+    "past": "forbade",
+    "participle": "forbidden",
+    "category": "C"
+  },
+  {
+    "french": "jeter",
+    "base": "cast",
+    "past": "cast",
+    "participle": "cast",
+    "category": "C"
+  },
+  {
+    "french": "jurer",
+    "base": "swear",
+    "past": "swore",
+    "participle": "sworn",
+    "category": "C"
+  },
+  {
+    "french": "lancer",
+    "base": "fling",
+    "past": "flung",
+    "participle": "flung",
+    "category": "C"
+  },
+  {
+    "french": "lancer",
+    "base": "sling",
+    "past": "slung",
+    "participle": "slung",
+    "category": "C"
+  },
+  {
+    "french": "lancer",
+    "base": "throw",
+    "past": "threw",
+    "participle": "thrown",
+    "category": "C"
+  },
+  {
+    "french": "lier",
+    "base": "bind",
+    "past": "bound",
+    "participle": "bound",
+    "category": "C"
+  },
+  {
+    "french": "mal comprendre",
+    "base": "misunderstand",
+    "past": "misunderstood",
+    "participle": "misunderstood",
+    "category": "C"
+  },
+  {
+    "french": "marcher / fouler",
+    "base": "tread",
+    "past": "trod",
+    "participle": "trodden",
+    "category": "C"
+  },
+  {
+    "french": "marcher à grand pas",
+    "base": "stride",
+    "past": "strode",
+    "participle": "stridden",
+    "category": "C"
+  },
+  {
+    "french": "mener",
+    "base": "lead",
+    "past": "led",
+    "participle": "led",
+    "category": "C"
+  },
+  {
+    "french": "mentir",
+    "base": "lie",
+    "past": "lied",
+    "participle": "lied",
+    "category": "C"
+  },
+  {
+    "french": "mettre à découvert",
+    "base": "overdraw",
+    "past": "overdrew",
+    "participle": "overdrawn",
+    "category": "C"
+  },
+  {
+    "french": "mettre des cordes",
+    "base": "string",
+    "past": "strung",
+    "participle": "strung",
+    "category": "C"
+  },
+  {
+    "french": "montrer",
+    "base": "show",
+    "past": "showed",
+    "participle": "shown",
+    "category": "C"
+  },
+  {
+    "french": "mordre",
+    "base": "bite",
+    "past": "bit",
+    "participle": "bitten",
+    "category": "C"
+  },
+  {
+    "french": "mouiller",
+    "base": "wet",
+    "past": "wet",
+    "participle": "wet",
+    "category": "C"
+  },
+  {
+    "french": "nager",
+    "base": "swim",
+    "past": "swam",
+    "participle": "swum",
+    "category": "C"
+  },
+  {
+    "french": "négocier",
+    "base": "deal",
+    "past": "dealt",
+    "participle": "dealt",
+    "category": "C"
+  },
+  {
+    "french": "nourrir",
+    "base": "feed",
+    "past": "fed",
+    "participle": "fed",
+    "category": "C"
+  },
+  {
+    "french": "oublier",
+    "base": "forget",
+    "past": "forgot",
+    "participle": "forgotten",
+    "category": "C"
+  },
+  {
+    "french": "pardonner",
+    "base": "forgive",
+    "past": "forgave",
+    "participle": "forgiven",
+    "category": "C"
+  },
+  {
+    "french": "parier",
+    "base": "bet",
+    "past": "bet",
+    "participle": "bet",
+    "category": "C"
+  },
+  {
+    "french": "payer",
+    "base": "pay",
+    "past": "paid",
+    "participle": "paid",
+    "category": "C"
+  },
+  {
+    "french": "pencher",
+    "base": "lean",
+    "past": "leant",
+    "participle": "leant",
+    "category": "C"
+  },
+  {
+    "french": "pendre",
+    "base": "hang",
+    "past": "hung",
+    "participle": "hung",
+    "category": "C"
+  },
+  {
+    "french": "perdre",
+    "base": "lose",
+    "past": "lost",
+    "participle": "lost",
+    "category": "C"
+  },
+  {
+    "french": "piquer",
+    "base": "sting",
+    "past": "stung",
+    "participle": "stung",
+    "category": "C"
+  },
+  {
+    "french": "pleurer",
+    "base": "weep",
+    "past": "wept",
+    "participle": "wept",
+    "category": "C"
+  },
+  {
+    "french": "plier",
+    "base": "bend",
+    "past": "bent",
+    "participle": "bent",
+    "category": "C"
+  },
+  {
+    "french": "plonger",
+    "base": "dive",
+    "past": "dove",
+    "participle": "dived",
+    "category": "C"
+  },
+  {
+    "french": "porter",
+    "base": "wear",
+    "past": "wore",
+    "participle": "worn",
+    "category": "C"
+  },
+  {
+    "french": "poser",
+    "base": "lay",
+    "past": "laid",
+    "participle": "laid",
+    "category": "C"
+  },
+  {
+    "french": "pousser",
+    "base": "thrust",
+    "past": "thrust",
+    "participle": "thrust",
+    "category": "C"
+  },
+  {
+    "french": "prérégler",
+    "base": "preset",
+    "past": "preset",
+    "participle": "preset",
+    "category": "C"
+  },
+  {
+    "french": "prêter",
+    "base": "lend",
+    "past": "lent",
+    "participle": "lent",
+    "category": "C"
+  },
+  {
+    "french": "prévoir",
+    "base": "foresee",
+    "past": "foresaw",
+    "participle": "foreseen",
+    "category": "C"
+  },
+  {
+    "french": "prendre un coup de soleil",
+    "base": "sunburn",
+    "past": "sunburnt",
+    "participle": "sunburnt",
+    "category": "C"
+  },
+  {
+    "french": "prospérer",
+    "base": "thrive",
+    "past": "throve",
+    "participle": "thriven",
+    "category": "C"
+  },
+  {
+    "french": "prouver",
+    "base": "prove",
+    "past": "proved",
+    "participle": "proven",
+    "category": "C"
+  },
+  {
+    "french": "puer",
+    "base": "stink",
+    "past": "stank",
+    "participle": "stunk",
+    "category": "C"
+  },
+  {
+    "french": "ramper",
+    "base": "creep",
+    "past": "crept",
+    "participle": "crept",
+    "category": "C"
+  },
+  {
+    "french": "rechercher",
+    "base": "seek",
+    "past": "sought",
+    "participle": "sought",
+    "category": "C"
+  },
+  {
+    "french": "refuser",
+    "base": "withhold",
+    "past": "withheld",
+    "participle": "withheld",
+    "category": "C"
+  },
+  {
+    "french": "renverser",
+    "base": "spill",
+    "past": "spilt",
+    "participle": "spilt",
+    "category": "C"
+  },
+  {
+    "french": "résister à",
+    "base": "withstand",
+    "past": "withstood",
+    "participle": "withstood",
+    "category": "C"
+  },
+  {
+    "french": "rétrécir",
+    "base": "shrink",
+    "past": "shrank",
+    "participle": "shrunk",
+    "category": "C"
+  },
+  {
+    "french": "rêver",
+    "base": "dream",
+    "past": "dreamt",
+    "participle": "dreamt",
+    "category": "C"
+  },
+  {
+    "french": "s'adapter",
+    "base": "fit",
+    "past": "fit",
+    "participle": "fit",
+    "category": "C"
+  },
+  {
+    "french": "s'agenouiller",
+    "base": "kneel",
+    "past": "knelt",
+    "participle": "knelt",
+    "category": "C"
+  },
+  {
+    "french": "s'allonger",
+    "base": "lie",
+    "past": "lay",
+    "participle": "lain",
+    "category": "C"
+  },
+  {
+    "french": "s'accrocher",
+    "base": "cling",
+    "past": "clung",
+    "participle": "clung",
+    "category": "C"
+  },
+  {
+    "french": "s'efforcer",
+    "base": "strive",
+    "past": "strove",
+    "participle": "striven",
+    "category": "C"
+  },
+  {
+    "french": "s'élever",
+    "base": "rise",
+    "past": "rose",
+    "participle": "risen",
+    "category": "C"
+  },
+  {
+    "french": "s'asseoir",
+    "base": "sit",
+    "past": "sat",
+    "participle": "sat",
+    "category": "D"
+  },
+  {
+    "french": "se balancer",
+    "base": "swing",
+    "past": "swung",
+    "participle": "swung",
+    "category": "C"
+  },
+  {
+    "french": "se faufiler",
+    "base": "sneak",
+    "past": "snuck",
+    "participle": "snuck",
+    "category": "C"
+  },
+  {
+    "french": "se faufiler",
+    "base": "slink",
+    "past": "slunk",
+    "participle": "slunk",
+    "category": "C"
+  },
+  {
+    "french": "se marier",
+    "base": "wed",
+    "past": "wed",
+    "participle": "wed",
+    "category": "C"
+  },
+  {
+    "french": "se méprendre",
+    "base": "mistake",
+    "past": "mistook",
+    "participle": "mistaken",
+    "category": "C"
+  },
+  {
+    "french": "se propager",
+    "base": "spread",
+    "past": "spread",
+    "participle": "spread",
+    "category": "C"
+  },
+  {
+    "french": "se raser",
+    "base": "shave",
+    "past": "shaved",
+    "participle": "shaven",
+    "category": "C"
+  },
+  {
+    "french": "se rendre",
+    "base": "wend",
+    "past": "wended",
+    "participle": "wended",
+    "category": "C"
+  },
+  {
+    "french": "se reproduire",
+    "base": "breed",
+    "past": "bred",
+    "participle": "bred",
+    "category": "C"
+  },
+  {
+    "french": "se rétracter",
+    "base": "withdraw",
+    "past": "withdrew",
+    "participle": "withdrawn",
+    "category": "C"
+  },
+  {
+    "french": "se réveiller",
+    "base": "awake",
+    "past": "awoke",
+    "participle": "awoken",
+    "category": "C"
+  },
+  {
+    "french": "se réveiller",
+    "base": "wake",
+    "past": "woke",
+    "participle": "woken",
+    "category": "C"
+  },
+  {
+    "french": "se tenir debout",
+    "base": "stand",
+    "past": "stood",
+    "participle": "stood",
+    "category": "C"
+  },
+  {
+    "french": "secouer",
+    "base": "shake",
+    "past": "shook",
+    "participle": "shaken",
+    "category": "C"
+  },
+  {
+    "french": "semer",
+    "base": "sow",
+    "past": "sowed",
+    "participle": "sown",
+    "category": "C"
+  },
+  {
+    "french": "sentir (une odeur)",
+    "base": "smell",
+    "past": "smelt",
+    "participle": "smelt",
+    "category": "C"
+  },
+  {
+    "french": "séparer",
+    "base": "split",
+    "past": "split",
+    "participle": "split",
+    "category": "C"
+  },
+  {
+    "french": "signifier",
+    "base": "mean",
+    "past": "meant",
+    "participle": "meant",
+    "category": "C"
+  },
+  {
+    "french": "sonner",
+    "base": "ring",
+    "past": "rang",
+    "participle": "rung",
+    "category": "C"
+  },
+  {
+    "french": "souffler",
+    "base": "blow",
+    "past": "blew",
+    "participle": "blown",
+    "category": "C"
+  },
+  {
+    "french": "sous-louer",
+    "base": "sublet",
+    "past": "sublet",
+    "participle": "sublet",
+    "category": "C"
+  },
+  {
+    "french": "subir",
+    "base": "undergo",
+    "past": "underwent",
+    "participle": "undergone",
+    "category": "C"
+  },
+  {
+    "french": "suer",
+    "base": "sweat",
+    "past": "sweat",
+    "participle": "sweat",
+    "category": "C"
+  },
+  {
+    "french": "supporter",
+    "base": "bear",
+    "past": "bore",
+    "participle": "borne",
+    "category": "C"
+  },
+  {
+    "french": "surgir",
+    "base": "spring",
+    "past": "sprang",
+    "participle": "sprung",
+    "category": "C"
+  },
+  {
+    "french": "surprendre",
+    "base": "overhear",
+    "past": "overheard",
+    "participle": "overheard",
+    "category": "C"
+  },
+  {
+    "french": "survenir",
+    "base": "arise",
+    "past": "arose",
+    "participle": "arisen",
+    "category": "C"
+  },
+  {
+    "french": "tenir",
+    "base": "hold",
+    "past": "held",
+    "participle": "held",
+    "category": "C"
+  },
+  {
+    "french": "tirer",
+    "base": "shoot",
+    "past": "shot",
+    "participle": "shot",
+    "category": "C"
+  },
+  {
+    "french": "tisser",
+    "base": "weave",
+    "past": "wove",
+    "participle": "woven",
+    "category": "C"
+  },
+  {
+    "french": "tondre",
+    "base": "mow",
+    "past": "mowed",
+    "participle": "mown",
+    "category": "C"
+  },
+  {
+    "french": "tondre",
+    "base": "shear",
+    "past": "sheared",
+    "participle": "shorn",
+    "category": "C"
+  },
+  {
+    "french": "tordre",
+    "base": "wring",
+    "past": "wrung",
+    "participle": "wrung",
+    "category": "C"
+  },
+  {
+    "french": "tourner",
+    "base": "spin",
+    "past": "spun",
+    "participle": "spun",
+    "category": "C"
+  },
+  {
+    "french": "tricoter",
+    "base": "knit",
+    "past": "knit",
+    "participle": "knit",
+    "category": "C"
+  },
+  {
+    "french": "tuer",
+    "base": "slay",
+    "past": "slew",
+    "participle": "slain",
+    "category": "C"
+  },
+  {
+    "french": "vendre",
+    "base": "sell",
+    "past": "sold",
+    "participle": "sold",
+    "category": "C"
+  },
+  {
+    "french": "verser",
+    "base": "shed",
+    "past": "shed",
+    "participle": "shed",
+    "category": "C"
+  },
+  {
+    "french": "voler",
+    "base": "fly",
+    "past": "flew",
+    "participle": "flown",
+    "category": "C"
+  },
+  {
+    "french": "zinguer",
+    "base": "zinc",
+    "past": "zincked",
+    "participle": "zincked",
+    "category": "C"
+  }
+]

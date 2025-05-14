@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".LevelFragment">
+
+    <!-- 1. Message Accueil -->
+    <TextView
+        android:id="@+id/textview_level_welcome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+    android:text="@string/level_welcome_message"
+    android:textAlignment="center"
+    android:textSize="20sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- 2. Champ Prénom -->
+    <EditText
+        android:id="@+id/edittext_user_name"
+        android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:hint="@string/level_user_name_hint"
+    android:inputType="textPersonName|textCapWords"
+    android:maxLines="1"
+    android:minHeight="48dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textview_level_welcome" />
+
+    <!-- 3. Choix Niveau -->
+    <RadioGroup
+        android:id="@+id/radiogroup_level_choice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext_user_name">
+
+        <RadioButton
+            android:id="@+id/radiobutton_level_beginner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/level_choice_beginner_base" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_level_intermediate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            android:text="@string/level_choice_intermediate_base" />
+
+        <RadioButton
+            android:id="@+id/radiobutton_level_expert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            android:text="@string/level_choice_expert_base" />
+    </RadioGroup>
+
+    <!-- 4. Bouton Commencer -->
+    <Button
+        android:id="@+id/button_level_start_training"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/level_button_start_training"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radiogroup_level_choice" />
+
+    <!-- 5. Icône Meilleur Score -->
+    <ImageView
+        android:id="@+id/imageview_best_score_icon"
+        android:layout_width="128dp"
+    android:layout_height="128dp"
+    android:layout_marginTop="24dp"
+    android:contentDescription="@string/score_best_score_label"
+    app:srcCompat="@drawable/ic_best_score_trophy"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/button_level_start_training" />
+
+    <!-- 6. Affichage Meilleur Score (Label) -->
+
+    <!-- 6. Affichage Meilleur Score (Valeur) -->
+    <TextView
+        android:id="@+id/textview_level_best_score_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/score_best_score_label"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/textview_level_best_score_value"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview_best_score_icon" />
+
+    <TextView
+        android:id="@+id/textview_level_best_score_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textview_level_best_score_label"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/textview_level_best_score_label" />
+    <TextView
+        android:id="@+id/textview_level_best_score_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+    android:textSize="16sp"
+    tools:text="(Diego)"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textview_level_best_score_label" />
+
+    <!-- 7. Message Personnalisation -->
+    <TextView
+        android:id="@+id/textview_level_custom_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/level_custom_info"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_level_best_score_label" />
+
+    <!-- 8. Bouton Personnaliser -->
+    <Button
+        android:id="@+id/button_level_customize"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/level_button_customize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_level_custom_info" />
+
+    <TextView
+        android:id="@+id/textview_footer_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+    android:textAlignment="center"
+    android:textSize="12sp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:text="Art@Factory / Version 1.0 / En savoir plus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Verbs1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Verbs1" parent="Base.Theme.Verbs1" />
+
+    <!-- NOUVEAU Thème pour le Splash Screen -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Couleur de fond du splash screen -->
+        <item name="windowSplashScreenBackground">@color/white</item> <!-- Ou une autre couleur -->
+
+        <!-- Icône à afficher au centre (ton logo/image) -->
+        <!-- Utilise ton drawable. Assure-toi qu'il est adapté pour un splash (pas trop détaillé) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item> <!-- Ou ton image spécifique -->
+        <!-- Optionnel: durée de l'affichage de l'icône (avant Android 12) -->
+        <item name="windowSplashScreenAnimationDuration">3000</item>
+
+        <!-- Optionnel: Icône de marque en bas (si désiré) -->
+        <!--<item name="android:windowSplashScreenBrandingImage">@drawable/branding_logo</item>-->
+
+        <!-- Thème vers lequel transiter APRES le splash screen -->
+        <item name="postSplashScreenTheme">@style/Theme.Verbs1</item> <!-- Important: pointe vers ton thème d'appli principal -->
+    </style>
+
+
+</resources>

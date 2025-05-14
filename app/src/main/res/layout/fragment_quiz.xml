@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".QuizFragment">
+
+    <TextView
+        android:id="@+id/textview_quiz_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/quiz_score_label"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textview_quiz_level_info"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_quiz_score"
+        tools:text="Niveau Débutant (55 verbes)" />
+
+    <TextView
+        android:id="@+id/textview_quiz_encouragement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_quiz_level_info"
+        tools:text="C'est parti Diego, tu as 3 essais !" />
+
+    <TextView
+        android:id="@+id/textview_quiz_french_verb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/button_quiz_validate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_quiz_encouragement"
+        tools:text="Manger" />
+
+    <Button
+        android:id="@+id/button_quiz_validate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz_button_validate"
+        app:layout_constraintBaseline_toBaselineOf="@id/textview_quiz_french_verb"
+        app:layout_constraintEnd_toEndOf="parent" /> <!-- Collé à droite -->
+
+    <Button
+        android:id="@+id/button_quiz_next"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz_button_next"
+        android:visibility="gone"
+        app:layout_constraintBaseline_toBaselineOf="@id/button_quiz_validate"
+        app:layout_constraintEnd_toEndOf="@id/button_quiz_validate" />
+
+    <TextView
+        android:id="@+id/textview_quiz_feedback"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+    android:minLines="1"
+    android:textAlignment="center"
+    android:textSize="16sp"
+    app:layout_constraintEnd_toStartOf="@+id/button_quiz_speak_forms"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/textview_quiz_french_verb"
+    tools:text="Correction : feel / felt / felt" />
+
+    <ImageButton
+        android:id="@+id/button_quiz_speak_forms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Réécouter la prononciation"
+        android:src="@drawable/ic_speaker_quiz"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/textview_quiz_feedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textview_quiz_feedback" />
+
+    <EditText
+        android:id="@+id/edittext_quiz_base_form"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="@string/quiz_hint_base_form"
+        android:inputType="textNoSuggestions"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_quiz_feedback" />
+
+    <EditText
+        android:id="@+id/edittext_quiz_past_simple"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/quiz_hint_past_simple"
+        android:inputType="textNoSuggestions"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edittext_quiz_base_form" />
+
+    <EditText
+        android:id="@+id/edittext_quiz_past_participle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="@string/quiz_hint_past_participle"
+        android:inputType="textNoSuggestions"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edittext_quiz_past_simple" />
+
+    <!-- NOUVEAU : TextView pour le titre du compte rendu -->
+    <TextView
+        android:id="@+id/textview_quiz_summary_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/quiz_summary_title_text"
+    android:textAlignment="center"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:visibility="gone"
+    app:layout_constraintTop_toBottomOf="@id/edittext_quiz_past_participle"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- NOUVEAU : TextView pour le détail des essais -->
+    <TextView
+        android:id="@+id/textview_quiz_summary_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+    android:textAlignment="center"
+    android:textSize="14sp"
+    android:visibility="gone"
+    app:layout_constraintTop_toBottomOf="@id/textview_quiz_summary_title"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    tools:text="1er essai: 10 | 2ème: 5 | 3ème: 3 | Échoué: 1" />
+    <!-- FIN NOUVEAU -->
+
+    <ImageView
+        android:id="@+id/imageview_sponsor_logo"
+        android:layout_width="0dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Logo du sponsor"
+        app:srcCompat="@drawable/logo_sponsor"
+        app:layout_constraintTop_toBottomOf="@id/textview_quiz_summary_details"
+        app:layout_constraintBottom_toTopOf="@id/button_quiz_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button_quiz_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quiz_button_back"
+
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

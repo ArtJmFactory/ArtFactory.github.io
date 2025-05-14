@@ -1,0 +1,53 @@
+<resources>
+    <!-- Textes existants (comme app_name) -->
+
+    <string name="app_name">Verbs</string>
+
+    <!-- Textes pour fragment_verb_list -->
+
+    <string name="verb_list_title">Gestion de ma Liste de Verbes</string> <!-- Si tu veux renommer l'ancienne -->
+    <string name="button_add_verb_text">Ajouter Verbe</string>
+    <string name="button_reset_list_text">Réinitialiser Liste</string>
+    <string name="button_back_to_home">Retour à l\'accueil</string> <!-- Si tu veux renommer l'ancienne -->
+
+    <!-- Textes pour LevelFragment -->
+    <string name="level_welcome_message">Bienvenue dans Verbs quel est ton niveau ?</string>
+    <!-- Textes de base pour les niveaux (sans le compte) -->
+    <string name="level_choice_beginner_base">D : Niveau Débutant</string>
+    <string name="level_choice_intermediate_base">C : Niveau Confirmé</string>
+    <string name="level_choice_expert_base">E : Niveau Expert</string>
+    <!-- Format pour afficher le niveau avec le compte -->
+    <string name="level_choice_format">%1$s (%2$d verbes ) </string> <!-- %1$s = nom niveau, %2$d = compte -->
+    <string name="level_user_name_hint">Quel est ton prénom ?</string>
+    <string name="level_custom_info">Tu peux aussi personnaliser ton niveau en choisissant toi même les verbes sur lesquels tu souhaites t\'entraîner.</string>
+    <string name="level_button_customize">Personnaliser ma liste de verbes</string>
+    <string name="level_button_start_training">Commencer l\'entraînement</string>
+    <!-- score_best_score_label est gardé -->
+    <string name="score_best_score_label">Meilleur Score :</string>
+    <!-- Textes pour QuizFragment -->
+
+    <string name="quiz_score_label">Ton Score : 0</string> <!-- Le score sera mis à jour dynamiquement -->
+    <string name="quiz_encouragement_template">C\'est parti %1$s, tu as %2$d essais !</string> <!-- %1$s pour nom, %2$d pour nombre -->
+    <string name="quiz_hint_base_form">Base Verbale (Infinitif)</string>
+    <string name="quiz_hint_past_simple">Prétérit (Past Simple)</string>
+    <string name="quiz_hint_past_participle">Participe Passé (Past Participle)</string>
+    <string name="quiz_button_validate">Valider</string>
+    <string name="quiz_button_next">Verbe Suivant</string>
+    <string name="quiz_button_back">Retour à l\'accueil</string>
+
+    <!-- Messages de feedback (on pourra les affiner) -->
+
+    <string name="feedback_correct_try1">Excellent ! +10 points</string>
+    <string name="feedback_correct_try2">Tu as bien corrigé ! +5 points</string>
+    <string name="feedback_correct_try3">Tu marques seulement 3 points !</string>
+    <string name="feedback_incorrect_try1">Désolé, ce n\'est pas exact, il te reste 2 essais</string>
+    <string name="feedback_incorrect_try2">Plus qu\'un essai... attention !</string>
+    <string name="feedback_incorrect_try3">Correction : %1$s / %2$s / %3$s</string> <!-- %1$s, %2$s, %3$s pour les formes -->
+
+    <string name="quiz_summary_title_text">Détail de ton score :</string>
+    <string name="quiz_tries_summary_details_format">1er essai: %1$s | 2ème: %2$s | 3ème: %3$s | Échoué: %4$s</string>
+    <string name="feedback_incorrect_try3_no_placeholder">Désolé, ce n\'est pas correct. Voici les bonnes réponses.</string>
+
+    <string name="footer_template">Art@Factory / Version %1$s / En savoir plus</string>
+    <string name="app_version_placeholder">1.0</string>
+</resources>
